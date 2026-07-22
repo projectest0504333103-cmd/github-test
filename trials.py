@@ -1,4 +1,4 @@
-def printmessage:
-  print("I am very glad I met you", sep="?/n")
-  print("And do well to look through this")
-printmessage
+def message():
+    print("I am very glad I met you", "And do well to look through this", sep='?')
+
+message()
